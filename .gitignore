@@ -1,0 +1,16 @@
+# Files
+.htaccess
+# Folders
+/local/logs/
+/local/logs/*
+# Mac
+.DS_Store
+.idea/
+.idea/*
+.vscode
+.vscode/*
+# Core
+/bitrix/
+/bitrix/*
+/upload/
+/upload/*
