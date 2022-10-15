@@ -17,7 +17,7 @@ abstract class AbstractIblockWrapper
 	public static function getList(array $filter = []): array
 	{
 		try {
-			$aElements = self::getQuery();
+			$aElements = static::getQuery();
 			if ($filter) {
 				$aElements->setFilter($filter);
 			}
